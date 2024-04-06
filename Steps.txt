@@ -1,0 +1,8 @@
+For running the Angular
+- cd ngcloudrun (Go to Repo)
+- ng serve
+
+To create Docker file
+- docker build -t ngcloudrun .
+- docker run -d -p 5001:8080 ngcloudrun
+- 
